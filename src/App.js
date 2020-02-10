@@ -44,6 +44,7 @@ class App extends React.Component {
       ...state,
       posts: newPosts
     }))
+    console.log(this.state.posts)
   }
 
   render() {
